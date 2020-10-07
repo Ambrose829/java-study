@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c2c8390-d3cb-46c1-9b06-f8d143682e90" name="Default Changelist" comment="" />
+    <list default="true" id="1c2c8390-d3cb-46c1-9b06-f8d143682e90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/nio/BufferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/nio/BufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/nio/ChannelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/nio/ChannelDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pika/nio/ChannelDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pika/nio/ChannelDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFiles/2.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +32,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -59,7 +67,46 @@
       <recent name="D:\code\space\ideaworkspace\java-study" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BlockingNIOFBKDemo">
+    <configuration name="BlockingNIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pika.nio.BlockingNIODemo" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pika.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlockingNIOFBKDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pika.nio.BlockingNIOFBKDemo" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pika.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pika.nio.BufferDemo" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pika.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChannelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pika.nio.ChannelDemo" />
       <module name="java-study" />
@@ -75,6 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlockingNIOFBKDemo" />
+        <item itemvalue="Application.BlockingNIODemo" />
+        <item itemvalue="Application.BufferDemo" />
         <item itemvalue="Application.ChannelDemo" />
       </list>
     </recent_temporary>
@@ -91,6 +141,7 @@
       <updated>1601980329696</updated>
       <workItem from="1601980335034" duration="1626000" />
       <workItem from="1602045740649" duration="10560000" />
+      <workItem from="1602066359401" duration="10114000" />
     </task>
     <servers />
   </component>
@@ -98,26 +149,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1602073513316">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602073513316" />
     <state x="514" y="92" key="FileChooserDialogImpl" timestamp="1602053125718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="514" y="92" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602053125718" />
-    <state width="1493" height="31" key="GridCell.Tab.0.bottom" timestamp="1602065929299">
+    <state width="1493" height="643" key="GridCell.Tab.0.bottom" timestamp="1602076751126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="31" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602065929299" />
-    <state width="1493" height="31" key="GridCell.Tab.0.center" timestamp="1602065929297">
+    <state width="1493" height="643" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602076751126" />
+    <state width="1493" height="643" key="GridCell.Tab.0.center" timestamp="1602076751125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="31" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602065929297" />
-    <state width="1493" height="31" key="GridCell.Tab.0.left" timestamp="1602065929297">
+    <state width="1493" height="643" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602076751125" />
+    <state width="1493" height="643" key="GridCell.Tab.0.left" timestamp="1602076751125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="31" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602065929297" />
-    <state width="1493" height="31" key="GridCell.Tab.0.right" timestamp="1602065929299">
+    <state width="1493" height="643" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602076751125" />
+    <state width="1493" height="643" key="GridCell.Tab.0.right" timestamp="1602076751126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="31" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602065929299" />
+    <state width="1493" height="643" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602076751126" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1602053132025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

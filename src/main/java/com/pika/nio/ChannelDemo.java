@@ -6,6 +6,7 @@ import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
+import java.nio.charset.CharacterCodingException;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
@@ -247,7 +248,7 @@ public class ChannelDemo {
     }
 
     //5.字符集
-    public static void charsetTest() {
+    public static void charsetTest() throws CharacterCodingException {
 //        查看所有字符集
 //        SortedMap<String, Charset> charsetSortedMap = Charset.availableCharsets();
 //        Set<Map.Entry<String, Charset>> entries = charsetSortedMap.entrySet();
@@ -264,7 +265,22 @@ public class ChannelDemo {
 
         CharBuffer cBuf = CharBuffer.allocate(1024);
         cBuf.put("皮卡NIO");
+        cBuf.flip();
 
+        //编码
+        ByteBuffer eBuf = ce.encode(cBuf);
+
+        //解码
+        CharBuffer dBuf = cd.decode(eBuf);
+        System.out.println(dBuf.toString());
+
+
+        System.out.println("===========使用utf8解码GBK===========");
+
+        Charset cs2 = Charset.forName("UTF-8");
+        eBuf.flip();
+        CharBuffer dbuf2 = cs2.decode(eBuf);
+        System.out.println(dbuf2.toString());
 
     }
 }
