@@ -1,6 +1,7 @@
 package com.pika.designPattern.factory.methodFactory;
 
-import com.pika.factory.simpleFactory.Car;
+
+import com.pika.designPattern.factory.simpleFactory.Car;
 
 /**
  * 每一个汽车生产商都应该有一个工厂

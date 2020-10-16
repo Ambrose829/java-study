@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c2c8390-d3cb-46c1-9b06-f8d143682e90" name="Default Changelist" comment="" />
+    <list default="true" id="1c2c8390-d3cb-46c1-9b06-f8d143682e90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/BMWFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/BMWFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/BenZFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/BenZFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/DefualtFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/DefualtFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/BMWFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/BMWFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/BenZFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/BenZFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/Factory.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -66,9 +75,9 @@
       <recent name="D:\code\space\ideaworkspace\java-study" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PipeDemo">
-    <configuration name="BlockingNIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pika.nio.BlockingNIODemo" />
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BlockingNIOFBKDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pika.nio.BlockingNIOFBKDemo" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
@@ -80,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlockingNIOFBKDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pika.nio.BlockingNIOFBKDemo" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pika.algorithms.sort.BubbleSort" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pika.nio.*" />
+          <option name="PATTERN" value="com.pika.algorithms.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.PipeDemo" />
         <item itemvalue="Application.NonBlockingNIODemo2" />
         <item itemvalue="Application.NonBlockingNIODemo" />
         <item itemvalue="Application.BlockingNIOFBKDemo" />
-        <item itemvalue="Application.BlockingNIODemo" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +169,8 @@
       <workItem from="1602467895416" duration="2645000" />
       <workItem from="1602574107559" duration="856000" />
       <workItem from="1602648044278" duration="3633000" />
-      <workItem from="1602764034628" duration="1256000" />
+      <workItem from="1602764034628" duration="1616000" />
+      <workItem from="1602827037244" duration="1899000" />
     </task>
     <servers />
   </component>
@@ -176,22 +186,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="514" y="92" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602053125718" />
-    <state width="1493" height="77" key="GridCell.Tab.0.bottom" timestamp="1602222558626">
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1602829169379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="77" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602222558626" />
-    <state width="1493" height="77" key="GridCell.Tab.0.center" timestamp="1602222558626">
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602829169379" />
+    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1602829169379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="77" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602222558626" />
-    <state width="1493" height="77" key="GridCell.Tab.0.left" timestamp="1602222558626">
+    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602829169379" />
+    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1602829169379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="77" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602222558626" />
-    <state width="1493" height="77" key="GridCell.Tab.0.right" timestamp="1602222558626">
+    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602829169379" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1602829169379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="77" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602222558626" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602829169379" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1602053132025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

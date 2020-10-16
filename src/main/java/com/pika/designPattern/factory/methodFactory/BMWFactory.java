@@ -1,7 +1,8 @@
 package com.pika.designPattern.factory.methodFactory;
 
-import com.pika.factory.simpleFactory.BMW;
-import com.pika.factory.simpleFactory.Car;
+
+import com.pika.designPattern.factory.simpleFactory.BMW;
+import com.pika.designPattern.factory.simpleFactory.Car;
 
 public class BMWFactory implements Factory {
     @Override

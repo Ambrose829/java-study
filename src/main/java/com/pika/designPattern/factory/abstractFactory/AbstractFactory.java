@@ -1,8 +1,9 @@
 package com.pika.designPattern.factory.abstractFactory;
 
-import com.pika.factory.simpleFactory.BMW;
-import com.pika.factory.simpleFactory.BenZ;
-import com.pika.factory.simpleFactory.Car;
+
+import com.pika.designPattern.factory.simpleFactory.BMW;
+import com.pika.designPattern.factory.simpleFactory.BenZ;
+import com.pika.designPattern.factory.simpleFactory.Car;
 
 /**
  * 抽象工厂（AbstractFactory）角色 ：是工厂方法模式的核心，与应用程序无关。任何在模式中创建的对象的工厂类必须实现这个接口。
