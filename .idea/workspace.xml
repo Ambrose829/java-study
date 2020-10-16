@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2c8390-d3cb-46c1-9b06-f8d143682e90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/BMWFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/BMWFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/BenZFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/BenZFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/DefualtFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/abstractFactory/DefualtFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/BMWFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/BMWFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/BenZFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/BenZFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/designPattern/factory/methodFactory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pika/algorithms/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pika/algorithms/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pika/algorithms/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pika/algorithms/sort/BubbleSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +165,7 @@
       <workItem from="1602574107559" duration="856000" />
       <workItem from="1602648044278" duration="3633000" />
       <workItem from="1602764034628" duration="1616000" />
-      <workItem from="1602827037244" duration="2208000" />
+      <workItem from="1602827037244" duration="4066000" />
     </task>
     <servers />
   </component>
@@ -186,22 +181,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="514" y="92" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602053125718" />
-    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1602829169379">
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1602834172180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602829169379" />
-    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1602829169379">
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602834172180" />
+    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1602834172179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602829169379" />
-    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1602829169379">
+    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602834172179" />
+    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1602834172178">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602829169379" />
-    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1602829169379">
+    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602834172178" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1602834172179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602829169379" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602834172179" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1602053132025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -210,9 +205,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602648045035" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602143964501">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602834470851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602143964501" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602834470851" />
   </component>
 </project>
